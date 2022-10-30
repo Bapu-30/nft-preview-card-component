@@ -27,7 +27,6 @@ body {
 
 .imageDiv {
     overflow: hidden;
-    cursor: pointer;
     position: relative;
     border-radius: 10px;
 }
@@ -57,10 +56,14 @@ body {
 
 .title {
     padding-top: 20px;
-    color: white;
     font-weight: 600;
-    cursor: pointer;
 }
+
+.title a {
+    color: white;
+    text-decoration: none;
+}
+
 
 .textArea p {
     font-size: 20px;
@@ -130,13 +133,13 @@ hr {
     color: hsl(215, 51%, 70%);
 }
 
-.creator span {
+.creator span a {
     color: white;
-    cursor: pointer;
+    text-decoration: none;
 }
 
-.title:hover,
-.creator span:hover {
+.title a:hover,
+.creator span a:hover {
     color: hsl(178, 100%, 50%);
 }
 
